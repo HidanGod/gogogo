@@ -1,0 +1,41 @@
+﻿body { 
+    font-family: Cambria, Georgia, "Times New Roman"; 
+    margin: 0;
+}
+
+div#header div.title { 
+    font-size: 2em; 
+    padding: .6em;
+      height: 80px;
+      width:100%;
+
+    z-index: 112;
+      position: fixed;
+    background: url('/resource/sky.jpg');
+    background-size: 100%; /* Современные браузеры */
+}
+
+div#categories a
+{
+    font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial; display: block;
+    text-decoration: none; padding: .6em; color: Black;
+    border-bottom: 1px solid silver;
+      display: inline; /* Отображать как строчный элемент */
+    margin-right: 50px; /* Отступ слева */
+
+}
+div#categories a.selected { background-color: #666; color: White; }
+div#categories a:hover { background-color: #CCC; }
+div#categories a.selected:hover { background-color: #666; }
+
+div#navigate a
+{
+    font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial; display: block;
+    text-decoration: none; padding: .6em; color: Black;
+    border-bottom: 1px solid silver;
+
+
+}
+div#navigate a.selected { background-color: #666; color: White; }
+div#navigate a:hover { background-color: #CCC; }
+div#navigate a.selected:hover { background-color: #666; }
