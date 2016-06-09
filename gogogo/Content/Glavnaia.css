@@ -1,0 +1,158 @@
+@charset "windows-1251";
+/* CSS Document */
+
+/*РґРёРЅР°РјРёС‡РµСЃРєРё СЃРѕР·РґР°РЅРѕРµ */
+/*С‚Р°Р±Р»РёС†Р° */
+.table
+{
+    position: relative; 
+    z-index: 12;
+    top: 0px;
+    left: 0px;
+    border: 0px; /* Р Р°РјРєР° РІРѕРєСЂСѓРі С‚Р°Р±Р»РёС†С‹ */ 
+     border-color: transparent;
+}
+/*СЏС‡РµР№РєРё */
+.cell
+{
+    border: 0px; 
+   border-color: transparent;
+}
+/*РїР°РЅРµР»СЊ РІРЅСѓС‚СЂРё СЏС‡РµР№РєРё */
+.newPanel
+{
+  position:relative;
+  height:250px;
+  width: 305px; 
+  background: #FFFFFF;
+  border: 0px solid; 
+  border-color: transparent;
+  margin-left: 10px; /* Отступ слева */
+}
+.butonnews
+{
+  position: relative; 
+  left: 150px;
+  top: 220px;
+  height: 30px;
+  width: 150px; 
+  Border: 0;
+}
+/*загаловок */
+.zagalovok
+{
+  position:relative;
+
+  top: 5px;
+  height:30px;
+  width: 320px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+}
+/*картинка поста*/
+.pictche
+{
+  position: relative; 
+  top:10px;
+  left:10px;
+  height:120px;
+  width: 170px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+  background-size: 100%; /* Современные браузеры */
+ 
+}
+/*аватарка автора поста*/
+.avtorpictche
+{
+  z-index: 100; 
+  position: relative; 
+  top: -110px;
+  left: 210px;
+  height:90px;
+  width: 80px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+  background-size: 100%; /* Современные браузеры */
+   background: url('/resource/sky.jpg');
+}
+/*имя автора поста */
+.avtorLabel
+{
+  text-align: center;
+  z-index: 99; 
+  position: relative; 
+  top: -110px;
+  left: 220px;
+  height:100px;
+  width: 30px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+}
+/*карма автора поста*/
+.karmaavtorLabel
+{
+ text-align: center;
+  z-index: 99; 
+  position: relative; 
+  top: -190px;
+  left: 190px;
+  height:10px;
+  width: 100px; 
+  Border: 0;
+  Color: black;
+  text-decoration: none;
+  Border: 0;
+  font:8pt PT Sans, sans-serif;
+
+}
+/*дата создаия поста*/
+.dataLabel
+{
+  position: relative; 
+  left: 10px;
+  top:150px;
+  height:30px;
+  width: 320px; 
+}
+
+/*количество просмотров*/
+.prosmotrLabel
+{
+  position: relative; 
+  left: -110px;
+  top:-190px;
+  height:30px;
+  width: 320px;
+  font:8pt PT Sans, sans-serif;
+ Color: black;
+  z-index: 199; 
+}
+/*рейтинг поста */
+.reitLabel
+{
+  position: relative; 
+  left: -30px;
+  top:-220px;
+  height:30px;
+  width: 320px;
+  font:8pt PT Sans, sans-serif;
+  Color: black;
+}
+/*текст новости*/
+.textnews
+{
+  position: relative; 
+  top: -230px;
+  height:30px;
+  width: 300px; 
+  font:11pt PT Sans, sans-serif;
+ Color: black;
+}
+
+
+

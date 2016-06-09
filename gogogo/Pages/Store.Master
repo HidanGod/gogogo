@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Store.master.cs" Inherits="gogogo.Pages.Store" %>
+
+<%@ Register TagPrefix="GS2" TagName="NavigatePanel" Src="~/Controls/NavigatePanel.ascx" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Мы рядом!</title>
+    <link rel="stylesheet" href="/Content/Styles.css" />
+    <link rel="stylesheet" href="/Content/Menu.css" />
+    <link rel="stylesheet" href="/Content/Glavnaia.css" />
+</head>
+<body>
+   <form id="form1" runat="server">
+        <div>
+            <div id="header">
+                <div class="title">Мы рядом!</div>
+            </div>
+           
+             <div id="navigate" class="panel">
+                <GS2:NavigatePanel runat="server" />
+            </div>
+            <div class="MainPanel">
+                <asp:ContentPlaceHolder ID="bodyContent" runat="server" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>
